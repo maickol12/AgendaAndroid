@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nombre"/>
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefono"/>
+    <EditText
+        android:id="@+id/cumpleanios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cumpleaños"/>
+    <EditText
+        android:id="@+id/nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota"/>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:orientation="horizontal">
+       <Button
+           android:id="@+id/agregarAgenda"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="agregar"
+           android:layout_gravity="center"/>
+       <Button
+           android:id="@+id/cerrar"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Cerrar"
+           android:layout_gravity="center"/>
+   </LinearLayout>
+
+</LinearLayout>
